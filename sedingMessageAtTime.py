@@ -16,7 +16,7 @@ def send_whatsapp_message():
     sys.exit()
 
 # Set the time for sending the message (4:00 AM)
-    # If we need to send any parameters in send_whatsapp_message function, we can just uss a comma and then write the perameter of the function.
+# If we need to send any parameters in send_whatsapp_message function, we can just uss a comma and then write the perameter of the function.
 schedule.every().day.at("01:41").do(send_whatsapp_message)
 
 while True:
